@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.landing-page {
+    width: 100%;
+    min-height: 255vh;
+    background-color: white;
+    padding: 2vw 10vw 10vw 10vw;
+    overflow: hidden;
+
+}
+
+.img-wrapper {
+    height: 60vh;
+    width: 100%;
+    background-image: url(/media/newYork.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: grey; */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.para-wrap {
+    background-color: transparent;
+   
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    height: 28vh;
+    width: 100%;
+}
+
+.content-wrap {
+    background-color: white;
+    max-height: 255vh;
+    width: 100%;
+    padding-bottom: 2vw;
+    padding-left: 0.5vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.para-wrap{
+    color:  black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-top: 2vw;
+
+}
+
+.para-p{
+margin-top: 0.5vw;
+
+}
+
+.para-p-two{
+    margin-top: 2vw;
+}
+
+
+.content-wrap p{
+    text-transform: capitalize;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+}
+
+.content-wrap input{
+    width: 48.5%;
+    height: 6vh;
+    border-radius: 5px;
+/* margin-left: 2vw; */
+margin-top: 0.5vw;
+margin-bottom: 0.5vw;
+}
+
+ /* label:nth-child(4){
+
+ background-color: red;
+ } */
+
+.sec-input{
+    margin-left: 1.5vw;
+}
+
+.content-wrap label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 1vw;
+    text-transform: capitalize;
+    /* margin-top: 20vw; */
+
+}
+
+.l-nme{
+    margin-left: 35vw;
+}
+
+.state-pro{
+    margin-left: 38vw;
+}
+
+.contact{
+    text-transform: capitalize;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+}
+
+.span-email{
+    margin-left: 31.1vw;
+}
+
+.hr-min{
+    margin-left: 36.5vw;
+
+}
+
+.number{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5vw;
+    font-size: 1.3vw;
+    /* margin-left: 3vw; */
+}
+
+
+
+.num-of-kid{
+    margin-left: 29vw;
+}
+
+.add{
+    width: 4vw;
+}
+
+.add{
+    width: 161vw;
+}
+
+.city-input{
+    width: 161vw;
+}
+
+.hh input{
+    display: flex;
+    width: 20vw;
+}
+
+#hh-mm{
+    width: 90px;
+}
+
+.radio-inp input{
+    font-size: 10px;
+    height: 10px;
+margin-top: 1vw;
+/* display: inline`; */
+margin-right: 0.1vw;
+}
+
+.rad{
+    display: flex;
+    width: 20%;
+    font-size: 1.5vw ;
+    padding-top: 1.5vw;
+}
+
+.rad input{
+height: 1.2vw;
+}
+
+    textarea{
+    width: 99%;
+    height: 30vh;
+    margin-top: 1vw;
+    /* border-bottom: 1px solid grey; */
+}
+
+.btn {
+    display: block;
+    margin-top: 4vw;
+margin-left: auto;
+margin-right: auto;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    width: 12vw;
+    height: 6vh;
+}
