@@ -29,7 +29,6 @@ body {
 .heading {
     width: 100%;
     height: 100%;
-    /* background-color: yellowgreen; */
     padding-left: 10vw;
     padding-top: 1vw;
     background-image: url(./media/bg-rec.png);
@@ -152,20 +151,12 @@ nav a:hover {
 
     color: white;
     position: absolute;
-    /* right: 80vw; */
     left: 10vw;
     bottom: 6vw;
     font-size: 2vw;
 }
 
-/* .foot-p-two i {
 
-    font-size: 2vw;
-    right: 47vw;
-    color: red;
-    position: absolute;
-    bottom: 6vw;
-} */
 
 .foot-p {
     width: 30%;
@@ -185,7 +176,7 @@ nav a:hover {
 #second-page {
     height: 100vh;
     width: 100%;
-    background-color: #836a6a;
+    /* background-color: #ca1414; */
     overflow: hidden;
 }
 
@@ -202,10 +193,12 @@ nav a:hover {
     width: 35%;
     height: 100%;
     border-radius: 10px;
-    background-image: url(/media/img\ 2.jpg);
+    background-image: url(/media/left.png);
     background-color: antiquewhite;
     position: relative;
-    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .left-box p i {
@@ -230,7 +223,7 @@ nav a:hover {
     width: 45%;
     height: 50%;
     background-color: antiquewhite;
-    background-image: url(/media/rt.jpg);
+    background-image: url(/media/rt.png);
     margin-left: 2vw;
     background-position: bottom;
     background-size: cover;
@@ -255,7 +248,7 @@ nav a:hover {
     width: 45%;
     height: 50%;
     background-color: aquamarine;
-    background-image: url(/media/rt2.jpg);
+    background-image: url(/media/rt2.png);
     background-position: bottom;
     background-size: cover;
     border-radius: 30px;
@@ -281,7 +274,7 @@ nav a:hover {
     position: absolute;
     top: 54%;
     left: 2vw;
-    background-image: url(/media/rbtm.jpg);
+    background-image: url(/media/rbtm.png);
     background-color: cadetblue;
     background-position: bottom;
     background-size: cover;
@@ -353,9 +346,6 @@ p {
 .third-left-box {
     width: 35%;
     height: 100%;
-    /* background-color: rgba(124, 47, 47, 0.856); */
-    /* padding-top: 4vw; */
-
 }
 
 
@@ -364,7 +354,6 @@ p {
     text-transform: capitalize;
     color: black;
     width: 65%;
-    /* padding-top: 2vw; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
 }
@@ -399,9 +388,7 @@ p {
 .third-right-box {
     width: 50%;
     height: 70%;
-    /* background-color: yellowgreen; */
-    background-image: url(/media/third-page.jpg);
-
+    background-image: url(/media/third-page.png);
     border-radius: 25px;
     background-position: bottom;
     margin-left: 1vw;

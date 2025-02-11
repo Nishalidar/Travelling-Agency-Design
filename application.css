@@ -25,7 +25,7 @@ body {
 .img-wrapper {
     height: 60vh;
     width: 100%;
-    background-image: url(/media/newYork.jpg);
+    background-image: url(/media/newYork.png);
     background-size: cover;
     background-position: center;
     /* background-color: grey; */
